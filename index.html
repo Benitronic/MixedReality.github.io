@@ -107,6 +107,24 @@
   width: auto;
   object-fit: contain;
 }
+
+
+    .contact-link {
+  display: inline-flex;
+  align-items: center;
+  padding: 10px 14px;
+  border-radius: 12px;
+  background: rgba(255,255,255,0.05);
+  border: 1px solid rgba(255,255,255,0.10);
+  color: var(--text);
+  font-weight: 600;
+  transition: 160ms ease;
+}
+
+.contact-link:hover {
+  transform: translateY(-1px);
+  background: rgba(255,255,255,0.08);
+}
     
     .nav-links {
       display: flex;
@@ -421,6 +439,7 @@
         <a href="#experiments">Experiments</a>
         <a href="#paper">Paper</a>
         <a href="#acknowledgments">Acknowledgments</a>
+        <a href="#contacts">Contacts</a>
       </nav>
     </div>
   </header>
@@ -624,6 +643,50 @@
         </div>
       </div>
     </section>
+    
+    <section id="contacts">
+      <div class="container">
+        <div class="section-head">
+          <div>
+            <div class="section-kicker">Contacts</div>
+            <h2>Other contacts and links</h2>
+            <p class="section-desc">
+              Additional links related to the laboratory, the research supervisor, and the author.
+            </p>
+          </div>
+        </div>
+    
+        <div class="grid-3">
+          <article class="panel">
+            <h3>Air Robotics Laboratory (LRA)</h3>
+            <p>
+              <a class="contact-link" href="https://www.mec.ita.br/laboratorio-de-robotica-aerea-lra-departamento-de-mecatronica/" target="_blank" rel="noopener noreferrer">
+                Visit laboratory website
+              </a>
+            </p>
+          </article>
+    
+          <article class="panel">
+            <h3>Prof. Davi A. Santos</h3>
+            <p>
+              <a class="contact-link" href="https://www.professordavisantos.com/" target="_blank" rel="noopener noreferrer">
+                Visit personal website
+              </a>
+            </p>
+          </article>
+    
+          <article class="panel">
+            <h3>Benicio Barbosa Cruz</h3>
+            <p>
+              <a class="contact-link" href="https://benitronic.vercel.app/" target="_blank" rel="noopener noreferrer">
+                Visit personal website
+              </a>
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+    
   </main>
 
 </body>
