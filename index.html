@@ -403,7 +403,7 @@
     <section class="hero">
       <div class="container hero-grid">
         <div>
-          <div class="eyebrow">Project Page • GitHub Pages Ready</div>
+          <div class="eyebrow">Project Page</div>
           <h1>An Indoor Mixed-Reality Testbed for Multi-Drone Experiments with Real and Simulated Agents</h1>
           <div class="authors">
             Benicio B. Cruz, Jorge A. Ricardo Jr, Davi A. Santos<br>
@@ -449,10 +449,7 @@
           <article class="panel">
             <h3>Abstract</h3>
             <p>
-              This paper presents a mixed-reality indoor testbed for multi-drone experiments with real and simulated agents. The setup extends a previous mixed-reality indoor arena by enabling their simultaneous coexistence within the same environment. It integrates Crazyflie drones, an OptiTrack motion capture system for pose measurement of real agents, an object-oriented MATLAB framework for dynamic simulation and implementation of guidance and control algorithms, a Python-based communication interface for command transmission to the real drones, and a Unity 3D visualizer for integrated visualization of all agents.
-            </p>
-            <p>
-              The testbed is demonstrated in three scenarios: a fully simulated case with three drones, a hybrid case with one real and one simulated drone, and a hybrid case with two real and one simulated drone, showing feasibility and flexibility for mixed-reality multi-agent experiments.
+              This paper presents a mixed-reality indoor testbed for multi-drone experiments with real and simulated agents. The setup extends a previous mixed-reality indoor arena by enabling their simultaneous coexistence within the same environment. It integrates Crazyflie drones, an OptiTrack motion capture system for pose measurement of real agents, an object-oriented MATLAB framework for dynamic simulation and implementation of guidance and control algorithms, a Python-based communication interface for command transmission to the real drones, and a Unity 3D visualizer for integrated visualization of all agents. The testbed is demonstrated in three scenarios: a fully simulated case with three drones, a hybrid case with one real and one simulated drone, and a hybrid case with two real and one simulated drone, showing feasibility and flexibility for mixed-reality multi-agent experiments.
             </p>
           </article>
 
@@ -514,7 +511,7 @@
             <div class="section-kicker">Architecture</div>
             <h2>Hardware and software pipeline</h2>
             <p class="section-desc">
-              The system combines a motion capture stack, radio communication, supervisory coordination, dynamic simulation, and 3D visualization in a unified mixed-reality framework.
+              The system combines a motion capture system, radio communication, real drones, dynamic simulation, and 3D visualization in a unified mixed-reality framework.
             </p>
           </div>
         </div>
@@ -552,35 +549,6 @@
       </div>
     </section>
 
-    <section id="experiments">
-      <div class="container">
-        <div class="section-head">
-          <div>
-            <div class="section-kicker">Experiments</div>
-            <h2>Representative demonstrations</h2>
-            <p class="section-desc">
-              The project page includes representative results from the three scenarios used to validate the proposed testbed.
-            </p>
-          </div>
-        </div>
-
-        <div class="timeline">
-          <div class="timeline-item">
-            <strong>Fully simulated scenario</strong>
-            Three drones operate in a purely simulated environment, with trajectories and closed-loop behavior generated through the Crazyflie dynamic model implemented in MATLAB.
-          </div>
-          <div class="timeline-item">
-            <strong>Hybrid scenario with one real and one simulated drone</strong>
-            The real drone pose is obtained from OptiTrack, while the simulated drone state is propagated numerically, showing physical and virtual agents sharing the same apparatus.
-          </div>
-          <div class="timeline-item">
-            <strong>Hybrid scenario with two real and one simulated drone</strong>
-            This case extends the setup to multiple real agents interacting alongside a simulated drone within the same mixed-reality workspace.
-          </div>
-        </div>
-      </div>
-    </section>
-
     <section id="paper">
       <div class="container">
         <div class="section-head">
@@ -600,11 +568,10 @@
               <a class="btn btn-primary" href="./paper.pdf" target="_blank" rel="noopener noreferrer">Open paper PDF</a>
             </p>
             <p class="muted">
-              For GitHub Pages, place the final manuscript file in the root folder as <code>paper.pdf</code>, or replace this button with the final DOI or publisher link when available.
             </p>
           </article>
           <article class="panel">
-            <h3>Suggested citation</h3>
+            <h3>Citation</h3>
             <p class="citation">
               Cruz, B. B., Ricardo Jr, J. A., and Santos, D. A. <em>An Indoor Mixed-Reality Testbed for Multi-Drone Experiments with Real and Simulated Agents</em>.
             </p>
@@ -620,7 +587,6 @@
             <div class="section-kicker">Acknowledgments</div>
             <h2>Support</h2>
             <p class="section-desc">
-              Funding and institutional support can be highlighted in the final section, following the paper.
             </p>
           </div>
         </div>
@@ -634,13 +600,5 @@
     </section>
   </main>
 
-  <footer class="footer">
-    <div class="container footer-card">
-      <strong>Project page template ready for GitHub Pages.</strong>
-      <p class="muted" style="margin: 10px 0 0;">
-        Update the paper link, replace or add media assets as needed, and publish the repository with GitHub Pages enabled.
-      </p>
-    </div>
-  </footer>
 </body>
 </html>
