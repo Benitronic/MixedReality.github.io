@@ -82,6 +82,32 @@
       box-shadow: var(--shadow);
     }
 
+    .logo-row {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  margin-bottom: 22px;
+  flex-wrap: wrap;
+}
+
+.logo-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 72px;
+  padding: 10px 18px;
+  border-radius: 18px;
+  background: rgba(255,255,255,0.05);
+  border: 1px solid rgba(255,255,255,0.10);
+  box-shadow: var(--shadow);
+}
+
+.logo-box img {
+  max-height: 48px;
+  width: auto;
+  object-fit: contain;
+}
+    
     .nav-links {
       display: flex;
       flex-wrap: wrap;
@@ -400,11 +426,20 @@
   </header>
 
   <main id="top">
-    <section class="hero">
-      <div class="container hero-grid">
-        <div>
-          <div class="eyebrow">Project Page</div>
-          <h1>An Indoor Mixed-Reality Testbed for Multi-Drone Experiments with Real and Simulated Agents</h1>
+<section class="hero">
+  <div class="container hero-grid">
+    <div>
+      <div class="logo-row">
+        <div class="logo-box">
+          <img src="assets/logo-ita.png" alt="ITA logo" class="logo-ita" />
+        </div>
+        <div class="logo-box">
+          <img src="assets/LogoLRA.png" alt="Air Robotics Laboratory logo" class="logo-lab" />
+        </div>
+      </div>
+
+      <div class="eyebrow">Project Page</div>
+      <h1>An Indoor Mixed-Reality Testbed for Multi-Drone Experiments with Real and Simulated Agents</h1>
           <div class="authors">
             Benicio B. Cruz, Jorge A. Ricardo Jr, Davi A. Santos<br>
             Aeronautics Institute of Technology (ITA), Brazil
